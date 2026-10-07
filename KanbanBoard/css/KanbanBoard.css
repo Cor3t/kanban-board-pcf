@@ -13,7 +13,7 @@ ul {
 }
 
 .main {
-  height: 90vh;
   display: flex;
+  height: 100%;
   flex-direction: column;
 }

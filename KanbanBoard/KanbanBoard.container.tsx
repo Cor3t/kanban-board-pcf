@@ -3,10 +3,10 @@ import { Board, KanbanHeader } from "./components";
 
 const KanbanBoardContainer = () => {
   return (
-    <div className="main">
+    <main className="main">
       <KanbanHeader />
       <Board />
-    </div>
+    </main>
   );
 };
 
