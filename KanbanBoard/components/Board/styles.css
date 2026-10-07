@@ -1,0 +1,9 @@
+.board {
+  padding: 16px;
+  flex-direction: row;
+  display: flex;
+  gap: 16px;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  flex: 1;
+}

@@ -1,0 +1,19 @@
+h1,
+h2,
+h4,
+p,
+span {
+  padding: 0px;
+  margin: 0px;
+  text-align: start;
+}
+
+ul {
+  list-style: none;
+}
+
+.main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}

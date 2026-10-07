@@ -1,0 +1,43 @@
+.status-section {
+  display: flex;
+  justify-items: start;
+  flex-direction: column;
+  flex: 1 0 300px;
+  max-width: 300px;
+}
+
+.status-section-header {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+}
+
+.status-section-header p {
+  font-size: 14px;
+}
+
+.count-indicator {
+  display: flex;
+  border-radius: 50px;
+  height: 18px;
+  width: 18px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background-color: #f2f2f2;
+}
+
+.count-indicator span {
+  font-size: 12px;
+}
+
+.status-user-stories {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  flex: 1;
+}
